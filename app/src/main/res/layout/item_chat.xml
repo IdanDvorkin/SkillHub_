@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+
+    <!-- Profile Picture or Chat Icon -->
+    <ImageView
+        android:id="@+id/chatIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_profile" />
+
+    <!-- Chat name (other user's name) -->
+    <TextView
+        android:id="@+id/chatNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/chatIcon"
+        android:layout_marginStart="8dp"
+        android:text="Chat Name"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Last message preview -->
+    <TextView
+        android:id="@+id/lastMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chatNameTextView"
+        android:layout_toEndOf="@id/chatIcon"
+        android:layout_marginStart="8dp"
+        android:text="Last message preview"
+        android:textSize="14sp"
+        android:textColor="#808080" />
+</RelativeLayout>

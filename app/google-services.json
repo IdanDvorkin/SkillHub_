@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "887887587835",
+    "firebase_url": "https://skillhub-55d67-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "skillhub-55d67",
+    "storage_bucket": "skillhub-55d67.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887887587835:android:a84bc040ea78365708435e",
+        "android_client_info": {
+          "package_name": "com.example.skillhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-5Lo6F4jBlCU4alIFyiLx8GHNYY9pJVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
