@@ -178,7 +178,7 @@ class Profile_Activity : AppCompatActivity() {
                 correctedBitmap.compress(Bitmap.CompressFormat.JPEG, 100, out)
                 out.flush()
             }
-            Toast.makeText(this, "Profile image saved locally!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Profile image saved!", Toast.LENGTH_SHORT).show()
         } catch (e: IOException) {
             e.printStackTrace()
             Toast.makeText(this, "Failed to save image: ${e.message}", Toast.LENGTH_SHORT).show()
